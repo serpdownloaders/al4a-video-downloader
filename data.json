@@ -1,0 +1,221 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/al4a-downloader",
+  "serply_link": "https://serp.ly/al4a-downloader",
+  "app_name": "Al4a Video Downloader",
+  "short_description": "Download & Save Al4a Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Al4a Downloader is a browser extension candidate for saving videos from AL4A pages with a simple in-page or popup workflow. It targets AL4A's short domain,.html video detail pages, and a clean single-site match set. Open a supported video page, let the page expose playable media, then use the player button or extension controls to download detected options.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/al4a-downloader-fullscreen-01-1504c6fbf0.webp",
+    "https://apps.serp.co/media/optimized-products/al4a-downloader-fullscreen-02-183e82591f.webp",
+    "https://apps.serp.co/media/optimized-products/al4a-downloader-fullscreen-03-4722a00091.webp",
+    "https://apps.serp.co/media/optimized-products/al4a-downloader-fullscreen-04-8b744f6a50.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Is Al4a Downloader released?",
+      "answer": "The extension is available through GitHub Releases. It is a target-ready candidate that has passed solid handoff verification."
+    },
+    {
+      "question": "What pages does it target?",
+      "answer": "Al4a video detail pages ending in.html, including root, subdomain, and www.al4a.com patterns."
+    },
+    {
+      "question": "What media does it look for?",
+      "answer": "The extension checks video and source tags, Open Graph video fields, Twitter stream metadata, and poster images."
+    },
+    {
+      "question": "Is this a broad downloader that works on any site?",
+      "answer": "No. Al4a Downloader is scoped specifically to AL4A domains and their video page structure."
+    },
+    {
+      "question": "What needs to happen before full release?",
+      "answer": "Real extraction QA on live Al4a pages is needed to confirm reliable downloads beyond the generated stubs."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Al4a Downloader keeps everything inside your browser. There is no need to leave the page, copy links, or visit external download sites. The extension detects playable media directly on supported Al4a video detail pages and provides a download button near the player surface. This focused approach means fewer permissions, a simpler workflow, and a tool built specifically for Al4a's page structure."
+    },
+    {
+      "name": "",
+      "description": "I see an error about permissions."
+    },
+    {
+      "name": "",
+      "description": "Ensure the extension has the necessary permissions granted during installation for AL4A domains."
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Focused AL4A support without a copy/paste downloader site",
+    "In-page player button attached near the video surface",
+    "Detection of direct video and HLS-style media candidates",
+    "Saves through an AL4A offscreen download pipeline",
+    "Three-pattern site match set covering AL4A root, subdomains, and www",
+    "Purpose-built for Al4a video detail pages ending in.html",
+    "In-page download button attached to the Al4a player surface",
+    "Detection of video sources from tags, metadata, and stream fields",
+    "Popup interface for selecting detected media options",
+    "Offscreen download pipeline with HLS concat support",
+    "Three-pattern site match set covering root, subdomains, and www",
+    "Configurable download folder organized under AL4A",
+    "Transparent status as a target-ready candidate pending extraction QA"
+  ],
+  "content": {
+    "why": [
+      "Downloading videos from Al4a pages often means using third-party sites that require copying and pasting URLs, dealing with pop-up ads, or trusting unknown services with your browsing data. These workarounds are slow, interrupt your viewing experience, and offer no guarantee the download will actually work with Al4a's media delivery.",
+      "Al4a Downloader keeps everything inside your browser. There is no need to leave the page, copy links, or visit external download sites. The extension detects playable media directly on supported Al4a video detail pages and provides a download button near the player surface. This focused approach means fewer permissions, a simpler workflow, and a tool built specifically for Al4a's page structure."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Al4a and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install Al4a Downloader from the GitHub Releases page.",
+      "Navigate to any Al4a video detail page that ends in.html.",
+      "Allow the page to load fully and start video playback if needed.",
+      "Look for the download button that appears near the video player.",
+      "Click the download button or open the extension popup.",
+      "Review the detected media options displayed in the interface.",
+      "Select your preferred quality and click the download action.",
+      "Wait for the offscreen pipeline to process and save the file to your AL4A folder."
+    ],
+    "supported_formats": [
+      "Input: Direct video URLs from video and source tags, Open Graph video fields, Twitter stream metadata, and HLS-style playlists exposed on Al4a video pages.",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Al4a viewers who want a straightforward browser-based saving workflow",
+      "Users who prefer not to copy and paste URLs into external download sites",
+      "Anyone looking for a focused downloader scoped to a single platform",
+      "Users who want a player-level download button rather than a separate tool"
+    ],
+    "use_cases": [
+      "Save an Al4a video page for offline viewing without an internet connection",
+      "Build a local archive of content you have rights to download",
+      "Avoid buffering issues by storing videos locally for replay",
+      "Keep downloads organized in a dedicated AL4A folder structure",
+      "Use the player button workflow for a more natural saving experience"
+    ],
+    "troubleshooting": [
+      "The download button does not appear on the page. Make sure you are on a supported Al4a video detail page ending in.html and that the page has fully loaded.",
+      "No media options are detected. Try starting video playback first, as some media is only exposed after player activity.",
+      "The download fails or produces a broken file. Check your internet connection and try again. If the issue persists, the media may be delivered in a format the extension cannot process.",
+      "The extension does not work on the Al4a homepage. Al4a Downloader is designed for video detail pages only, not the main site or category listings.",
+      "I see an error about permissions. Ensure the extension has the necessary permissions granted during installation for AL4A domains."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Al4a page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Al4a Downloader is a focused tool for Al4a video pages only",
+      "The extension is transparent about its candidate status and pending QA"
+    ],
+    "about": [
+      "Al4a is a video platform featuring a range of content across its short domain and subdomains. Al4a Downloader provides a focused browser workflow for saving videos from supported Al4a video pages without leaving the site."
+    ]
+  },
+  "serpx_link": "https://serpx.link/al4a-downloader",
+  "github_topics": [
+    "al4a-download",
+    "al4a-downloader",
+    "al4a-video-downloader",
+    "al4a-video-downloader-online",
+    "al4a-video-downloader-mac",
+    "al4a-video-downloader-window",
+    "al4a-video-downloader-free",
+    "al4a-video-downloader-extension",
+    "al4a-video-downloader-app",
+    "al4a-video-downloader-chrome",
+    "al4a-video-downloader-from-url",
+    "how-to-download-al4a-videos",
+    "how-to-download-al4a-videos-mac",
+    "how-to-download-al4a-videos-windows",
+    "how-to-download-al4a-videos-online",
+    "how-to-download-al4a-videos-free",
+    "how-to-download-from-al4a",
+    "how-to-download-videos-from-al4a",
+    "download-al4a-videos",
+    "al4a-video-tutorial",
+    "save-al4a-videos",
+    "al4a-video-content-saver",
+    "how-to-download-al4a-videos-for-free"
+  ],
+  "hashtags": [
+    "#Al4aDownload",
+    "#Al4aDownloader",
+    "#Al4aVideoDownloader",
+    "#Al4aVideoDownloaderOnline",
+    "#Al4aVideoDownloaderMac",
+    "#Al4aVideoDownloaderWindow",
+    "#Al4aVideoDownloaderFree",
+    "#Al4aVideoDownloaderExtension",
+    "#Al4aVideoDownloaderApp",
+    "#Al4aVideoDownloaderChrome",
+    "#Al4aVideoDownloaderFromURL",
+    "#HowToDownloadAl4aVideos",
+    "#HowToDownloadAl4aVideosMac",
+    "#HowToDownloadAl4aVideosWindows",
+    "#HowToDownloadAl4aVideosOnline",
+    "#HowToDownloadAl4aVideosFree",
+    "#HowToDownloadFromAl4a",
+    "#HowToDownloadVideosFromAl4a",
+    "#DownloadAl4aVideos",
+    "#Al4aVideoTutorial",
+    "#SaveAl4aVideos",
+    "#Al4aVideoContentSaver",
+    "#HowToDownloadAl4aVideosForFree"
+  ],
+  "youtube_tags": [
+    "Al4a Download",
+    "Al4a Downloader",
+    "Al4a Video Downloader",
+    "Al4a Video Downloader Online",
+    "Al4a Video Downloader Mac",
+    "Al4a Video Downloader Window",
+    "Al4a Video Downloader Free",
+    "Al4a Video Downloader Extension",
+    "Al4a Video Downloader App",
+    "Al4a Video Downloader Chrome",
+    "Al4a Video Downloader From URL",
+    "How To Download Al4a Videos",
+    "How To Download Al4a Videos Mac",
+    "How To Download Al4a Videos Windows",
+    "How To Download Al4a Videos Online",
+    "How To Download Al4a Videos Free",
+    "How To Download From Al4a",
+    "How To Download Videos From Al4a",
+    "Download Al4a Videos",
+    "Al4a Video Tutorial",
+    "Save Al4a Videos",
+    "Al4a Video Content Saver",
+    "How To Download Al4a Videos For Free"
+  ]
+}
